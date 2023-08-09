@@ -41,7 +41,6 @@ double diff(int curr_column,int curr_row,int hit_row, vector< vector<double> > &
     res = ABS(res);
     res/=denom;
     return res;
-
 }
 //relief algorithm which will return vector of best features
 vector<int> relief(int num_of_features, int num_of_iterations, int num_of_sub_instances, double * arr, int num_of_top_features){
